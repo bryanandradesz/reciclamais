@@ -1,0 +1,128 @@
+
+
+/*Logo Sec*/
+
+.logo img {
+    padding: 15px;
+    filter: drop-shadow(0px 0px 11px rgb(6, 146, 6));
+    display: inline;
+}
+
+
+
+
+section {
+    height: 500px;
+}
+
+#sec1 {
+    align-content: center;
+    background-color: #006909;
+    background-image: url(https://media.istockphoto.com/id/1310431407/pt/vetorial/no-plastic-go-green-zero-waste-reduce-reuse-refuse-reycle.jpg?s=612x612&w=0&k=20&c=RwB4lueKseNMEbPD7DZNAemjZqbhQtZgP1b0FD1JqSU=);
+}
+
+#sec1 img {
+    filter: drop-shadow(0px 0px 21px rgb(0, 70, 0));
+    transform: translateX(100%);
+    
+}
+
+#sec1 img:hover {
+    filter: drop-shadow(0px 0px 11px rgb(0, 70, 0));
+ 
+    transition: opacity 0.3s ease, max-height 0.3s ease;
+}
+
+
+/* Sec 2 */
+
+#sec2 {
+    display: flex;
+    align-items: center;
+ 
+}
+
+#sec2 h1 {
+    font-size: 40px;
+    width: 50%;
+    margin-left: 10%;
+}
+
+#sec2 p {
+    text-align: initial;
+}
+
+.vertical-line {
+    height: 1px;
+    width: 70%;
+    background-color: var(--cor_segundaria);
+}
+
+/* Sec 1 
+#sec1 {
+    background-image: url(/public/img/backreci.png);
+    background-size: auto;
+}*/
+
+
+/* Sec 3*/
+
+#sec3 h1{
+    font-size: 34px;
+    padding: 30px;
+   
+    width: 100%;
+    text-align: center;
+}
+
+#sec3 img {
+    -webkit-box-shadow: 3px 12px 15px 0px rgba(0,0,0,0.73);
+    -moz-box-shadow: 3px 12px 15px 0px rgba(0,0,0,0.73);
+    box-shadow: 3px 12px 15px 0px rgba(0,0,0,0.73);
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+#sec3 p {
+
+    padding: 20px;
+   
+    
+}
+
+#sec3 {
+    background-color: rgb(207, 207, 207);
+    display: inline;
+}
+
+#sec3 a {
+    filter: drop-shadow(0px 0px 11px rgb(0, 70, 0));
+    font-weight: bold;
+    justify-content: center;
+    transform: translateX(50%);
+    display: flex;
+    margin-top: 20px;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 20px;
+    width: 40%;
+    
+    background-color: #006909;
+}
+
+.conteudo3 {
+    display: flex;
+}
+
+#sec3 a:hover {
+    background-color: #013f06;
+}
+
+nav a {
+    color: white;
+}
+header a {
+    color: rgb(0, 0, 0);
+}
